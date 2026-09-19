@@ -20,11 +20,11 @@
 
 ## Features
 
-- 🚀 **Application Launcher**: Scans system and user XDG `.desktop` files (including Flatpak) with intelligent fuzzy matching powered by [`nucleo-matcher`](https://crates.io/crates/nucleo-matcher) (used in Helix editor).
-- 🧮 **Inline Calculator**: Instant mathematical evaluation powered by [`evalexpr`](https://crates.io/crates/evalexpr). Supports operations (`23 * 4`), powers (`2 ^ 10`), trigonometric functions (`sin`, `cos`, `tan`), roots (`sqrt`), logarithms (`log`, `ln`), and constants (`pi`, `e`). Press <kbd>Enter</kbd> to copy the result directly to your clipboard.
-- 📁 **Asynchronous File Search**: Fast `$HOME` file finder using the multi-threaded [`ignore`](https://crates.io/crates/ignore) engine (ripgrep) running in a background thread. Automatically prunes heavy directories (`node_modules`, `target`, `.git`, `.cache`, `.cargo`) and respects `.gitignore`. Seamless fallback to `plocate` during startup.
-- 🎯 **Unified Ranking**: Providers evaluate queries independently and score matches dynamically without hardcoded prefix rules in the UI layer.
-- ⚡ **Non-Blocking UI**: Background indexing and in-memory caches guarantee sub-millisecond query evaluation on every keystroke.
+-  **Application Launcher**: Scans system and user XDG `.desktop` files (including Flatpak) with intelligent fuzzy matching powered by [`nucleo-matcher`](https://crates.io/crates/nucleo-matcher) (used in Helix editor).
+-  **Inline Calculator**: Instant mathematical evaluation powered by [`evalexpr`](https://crates.io/crates/evalexpr). Supports operations (`23 * 4`), powers (`2 ^ 10`), trigonometric functions (`sin`, `cos`, `tan`), roots (`sqrt`), logarithms (`log`, `ln`), and constants (`pi`, `e`). Press <kbd>Enter</kbd> to copy the result directly to your clipboard.
+-  **Asynchronous File Search**: Fast `$HOME` file finder using the multi-threaded [`ignore`](https://crates.io/crates/ignore) engine (ripgrep) running in a background thread. Automatically prunes heavy directories (`node_modules`, `target`, `.git`, `.cache`, `.cargo`) and respects `.gitignore`. Seamless fallback to `plocate` during startup.
+-  **Unified Ranking**: Providers evaluate queries independently and score matches dynamically without hardcoded prefix rules in the UI layer.
+-  **Non-Blocking UI**: Background indexing and in-memory caches guarantee sub-millisecond query evaluation on every keystroke.
 
 ---
 
